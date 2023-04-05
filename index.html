@@ -17,7 +17,7 @@
 
 <body class="display-3">
     <header class="d-flex justify-content-start align-items-center">
-        <img class="border rounded-circle mx-5" src="img/foto.png" alt="Foto" class="foto">
+        <img class="img-fluid border rounded-circle mx-5" src="img/foto.png" alt="Foto" class="foto">
         <div class="d-flex flex-column bd-highlight mb-3">
             <h1 class="p-2 bd-highlight p-3 " id="h1"> Cynthia Isabelle L S Pires </h1>
             <h3 class="p-2 bd-highlight p-3 " id="h1"> </h3>
@@ -26,16 +26,35 @@
     </header>
 
     <hr>
-    <nav class="d-flex justify-content-center">
-        <a href="#SM" class="mx-3 text-decoration-none text-light">Sobre min</a>
-        <a href="#F" class="mx-3 text-decoration-none text-light">Formação</a>
-        <a href="#EP" class="mx-3 text-decoration-none text-light">Experiêcia profissional</a>
-        <a href="#C" class="mx-3 text-decoration-none text-light">Cursos</a>
-        <a href="#HE" class="mx-3 text-decoration-none text-light">Habilidades específicas</a>
+
+    <nav class="navbar navbar-expand-md navbar-light p-3">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav px-3">
+                <li class="nav-item active mx-3">
+                    <a class="nav-link" href="#">Sobre Min</a>
+                </li>
+                <li class="nav-item mx-3">
+                    <a class="nav-link" href="#">Formação</a>
+                </li>
+                <li class="nav-item mx-3">
+                    <a class="nav-link" href="#">Experiêcia profissional</a>
+                </li>
+                <li class="nav-item mx-3">
+                    <a class="nav-link" href="#">Cursos</a>
+                </li>
+                <li class="nav-item mx-3">
+                    <a class="nav-link" href="#">Habilidades Específicas</a>
+                </li>
+            </ul>
+        </div>
     </nav>
     <hr>
 
-    <main class="align-items-center">
+    <main class="d-flex justify-content-center">
 
         <article>
             <section class="p-5">
@@ -119,6 +138,11 @@
                     </h6>
                 </div>
     </footer>
+
+
 </body>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 
 </html>

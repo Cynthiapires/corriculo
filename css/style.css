@@ -5,34 +5,22 @@
   font-size: medium;
   font-family: 'Nunito Sans', sans-serif !important;}
 
-a {
-  color:white;
-  border-radius: 7px;
-  width: 120px;
-  text-align: center;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-a:hover {
-  background-color:#969478;
-  width: 120px;
-}
 
 #h1 {
   color: rgb(255, 255, 255);
 }
 
-nav {
-  height: 55px;
-  background-color:#5C5E4D;
+nav{
+  background-color: #6F8F87 !important;
+}
+
+a{
+  color: azure !important;
+  font-weight: bold !important;
 }
 
 section {
-  width: 60%;
-  margin-left: 10% !important;
-  height: 250px;
+  height: auto;
 }
 
 #foter {
